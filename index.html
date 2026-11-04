@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <title>Работа рядом — Кунгур и Пермь</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><div class="brand-mark">Р</div><div><strong>Работа рядом</strong><span>Кунгур · Пермь</span></div></div>
+    <div class="top-actions"><span class="live-dot"></span><span id="updated">Загружаю данные…</span><button id="refresh" class="icon-btn" title="Обновить">↻</button></div>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <div><p class="eyebrow">ТВОЙ ЛИЧНЫЙ ПОИСК РАБОТЫ</p><h1>Подходящие вакансии.<br><em>Без лишнего.</em></h1>
+      <p class="hero-copy">Автоматический мониторинг Кунгура и Перми с учётом твоих условий.</p></div>
+      <div class="hero-note"><span class="pulse"></span><div><b>Облачный поиск</b><small>Проверка по расписанию, даже когда компьютер выключен</small></div></div>
+    </section>
+
+    <section class="stats">
+      <article class="stat"><span>Подтверждённо подходят</span><b id="count-good">—</b><small>Без оформления и с оплатой на руки</small></article>
+      <article class="stat"><span>Нужно уточнить</span><b id="count-check">—</b><small>Условия в объявлении раскрыты не полностью</small></article>
+      <article class="stat"><span>Новых за сутки</span><b id="count-new">—</b><small>По данным последнего запуска</small></article>
+    </section>
+
+    <nav class="tabs" aria-label="Разделы">
+      <button class="tab active" data-tab="all">Все вакансии</button>
+      <button class="tab" data-tab="kungur">Кунгур</button>
+      <button class="tab" data-tab="perm">Пермь</button>
+      <button class="tab" data-tab="saved">Избранное <span id="saved-count">0</span></button>
+    </nav>
+
+    <section class="filters">
+      <label class="searchbox">⌕ <input id="search" type="search" placeholder="Должность, работодатель или слово…"></label>
+      <select id="status-filter" aria-label="Степень проверки"><option value="all">Все статусы</option><option value="confirmed">Подтверждено</option><option value="review">Нужно уточнить</option></select>
+      <select id="sort"><option value="new">Сначала новые</option><option value="salary">Сначала с зарплатой</option></select>
+    </section>
+
+    <section class="rules">
+      <div class="rule-icon">✓</div><div><b>Твои условия поиска</b><p>Никакого ТК РФ, ГПХ или самозанятости. Только деньги на руки. В Перми — только суточные смены. Вакансии с неясными условиями не выдаются как подтверждённые.</p></div>
+    </section>
+
+    <section class="results-head"><div><h2 id="section-title">Все вакансии</h2><p id="result-caption">Объявления, найденные автоматическим поиском</p></div><span id="result-count" class="result-count">0 вакансий</span></section>
+    <section id="vacancies" class="vacancy-list"><div class="empty loading">Загружаю вакансии…</div></section>
+    <footer><span>Работа рядом · личный поисковик</span><span>Источники и условия могут меняться. Всегда перепроверяй оформление у работодателя.</span></footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
