@@ -1,0 +1,21 @@
+{
+  "updated_at": "2026-11-04T09:52:48.129695+00:00",
+  "source": "HH.ru public API",
+  "cities": {
+    "Кунгур": "1329",
+    "Пермь": "72"
+  },
+  "errors": [
+    "Кунгур/без оформления: 403 Client Error: Forbidden for url: https://api.hh.ru/vacancies?area=1329&text=%D0%B1%D0%B5%D0%B7+%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F&per_page=50&order_by=publication_time&period=7",
+    "Кунгур/без трудоустройства: 403 Client Error: Forbidden for url: https://api.hh.ru/vacancies?area=1329&text=%D0%B1%D0%B5%D0%B7+%D1%82%D1%80%D1%83%D0%B4%D0%BE%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0&per_page=50&order_by=publication_time&period=7",
+    "Кунгур/неофициально: 403 Client Error: Forbidden for url: https://api.hh.ru/vacancies?area=1329&text=%D0%BD%D0%B5%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE&per_page=50&order_by=publication_time&period=7",
+    "Кунгур/без ТК: 403 Client Error: Forbidden for url: https://api.hh.ru/vacancies?area=1329&text=%D0%B1%D0%B5%D0%B7+%D0%A2%D0%9A&per_page=50&order_by=publication_time&period=7",
+    "Кунгур/оплата наличными: 403 Client Error: Forbidden for url: https://api.hh.ru/vacancies?area=1329&text=%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D0%B0+%D0%BD%D0%B0%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%BC%D0%B8&per_page=50&order_by=publication_time&period=7",
+    "Пермь/без оформления: 403 Client Error: Forbidden for url: https://api.hh.ru/vacancies?area=72&text=%D0%B1%D0%B5%D0%B7+%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F&per_page=50&order_by=publication_time&period=7",
+    "Пермь/без трудоустройства: 403 Client Error: Forbidden for url: https://api.hh.ru/vacancies?area=72&text=%D0%B1%D0%B5%D0%B7+%D1%82%D1%80%D1%83%D0%B4%D0%BE%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0&per_page=50&order_by=publication_time&period=7",
+    "Пермь/неофициально: 403 Client Error: Forbidden for url: https://api.hh.ru/vacancies?area=72&text=%D0%BD%D0%B5%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE&per_page=50&order_by=publication_time&period=7",
+    "Пермь/без ТК: 403 Client Error: Forbidden for url: https://api.hh.ru/vacancies?area=72&text=%D0%B1%D0%B5%D0%B7+%D0%A2%D0%9A&per_page=50&order_by=publication_time&period=7",
+    "Пермь/оплата наличными: 403 Client Error: Forbidden for url: https://api.hh.ru/vacancies?area=72&text=%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D0%B0+%D0%BD%D0%B0%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%BC%D0%B8&per_page=50&order_by=publication_time&period=7"
+  ],
+  "vacancies": []
+}
